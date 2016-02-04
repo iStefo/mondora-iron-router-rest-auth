@@ -34,7 +34,7 @@ Router.route("/my-route", {where: "server"})
 Call your route passing the user's login token to authenticate:
 
 ```js
-HTTP.get("/my-route?login_token=userLoginToken", function (err, res) {
+HTTP.get("/my-route?loginToken=userLoginToken", function (err, res) {
     // ...
 });
 ```
